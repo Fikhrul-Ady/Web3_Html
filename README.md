@@ -33,4 +33,4 @@ untuk melihat file  [HTML](Listbox.html)
 untuk melihat file  [CSS](Listbox.css)
 ![img](SS/SS8.png)
 
-## Sekian dan Terimakasih Mohon Maad atas Kekurangannya 🙏🎓
+## Sekian dan Terimakasih Mohon Maaf atas Kekurangannya 🙏🎓
