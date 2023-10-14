@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form dengan Dropdown dan Listbox</title>
+    <link rel="stylesheet" type="text/css" href="Listbox.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+        <div class="logo">
+            <img src="World.png" alt="Logo Bahasa" width="130px">
+        </div>
+
+        <h1 class="header">Pilih Bahasa Favorit Anda</h1>
+
+        <div class="form-group">
+            <!-- Dropdown menu -->
+            <label for="bahasaDropdown" class="label">Pilih bahasa dari dropdown:</label>
+            <select id="bahasaDropdown" class="dropdown">
+                <option value="Bahasa Inggris">Bahasa Inggris</option>
+                <option value="Bahasa Spanyol">Bahasa Spanyol</option>
+                <option value="Bahasa Prancis">Bahasa Prancis</option>
+                <option value="Bahasa Jepang">Bahasa Jepang</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <h2 class="header">Pilih lebih dari satu bahasa:</h2>
+            <!-- Listbox dengan multiple selection -->
+            <label for="bahasaListbox" class="label">Pilih bahasa dari listbox (multiple):</label>
+            <select id="bahasaListbox" class="listbox" multiple>
+                <option value="Bahasa Inggris">Bahasa Inggris</option>
+                <option value="Bahasa Spanyol">Bahasa Spanyol</option>
+                <option value="Bahasa Prancis">Bahasa Prancis</option>
+                <option value="Bahasa Jepang">Bahasa Jepang</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

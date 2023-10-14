@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #b0e2ff; /* Background color is set to light blue */
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    background-color: #3cb371; /* Background color inside the box is set to green */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.header {
+    color: #ffa500; /* Header color is set to orange */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffa500; /* Label color is set to orange */
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffa500; /* Dropdown border color is set to orange */
+    border-radius: 5px;
+    background-color: #fff; /* Dropdown background color is set to white */
+}
+
+.listbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffa500; /* Listbox border color is set to orange */
+    border-radius: 5px;
+    background-color: #fff; /* Listbox background color is set to white */
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #ffa500; /* Heading color is set to orange */
+}
